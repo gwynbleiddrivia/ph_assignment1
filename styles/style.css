@@ -1,0 +1,117 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.believe{
+	background-image: url("../images/banner/banner3.png");
+	position: absolute;
+	width: 1600px;
+	height: 808px;
+	left: 0px;
+	top: 0px;
+}
+.believe h1{
+	margin-top: 216px;
+	text-align: right;
+	margin-right: 150px;
+	padding: 0px;
+	border: 0px;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 65px;
+	line-height: 75px;
+	color: #FFFFFF;
+	margin-bottom: 24px;
+}
+.believe p{
+	text-align: right;
+	margin-right: 150px;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFFFFF;
+	margin-bottom: 32px;
+}
+.believe button{
+	padding: 20px 25px;
+	margin-right: 150px;
+	margin-left: 1270px;
+	line-height: 23px;
+	border-size: 165px 64px;
+	border-radius: 5px;
+	color: #005FAC;
+	font-weight: 600;
+	font-size: 20px;
+}
+.failure{
+	margin-top: 936px;
+	margin-left: 206px;
+	display: flex;
+	gap: 87px;
+	align-items:center;
+}
+.failure failure_writeups{
+	height: 400px;
+	width: 416px;
+}
+.failure h2{
+	font-size: 40px;
+	color: #151414;
+	font-weight:700;
+	line-height: 47px;
+	margin-bottom: 24px;
+}
+.failure p{
+	margin-bottom: 16px;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #444343;
+}
+.failure ul{
+	list-style: none;
+	margin-bottom: 16px;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #444343;
+}
+.failure ul li{
+	margin-bottom: 8px;
+	height: 26px;
+}
+.failure ul li:before{
+	content:'\2713\0020';
+
+}
+.plan h2{
+	margin-top: 130px;
+	margin-left: 100px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 40px;
+	color: #151414;
+	font-weight:700;
+	line-height: 47px;
+}
+.plan_container{
+	display: flex;
+	gap: 86px;
+	align-items: center;
+	margin-left: 230px;
+	text-align: center;
+}
+.plan_container h3{
+	font-size: 30px;
+	line-height: 35px;
+	color: #151414;
+}
+.plan_container img{
+	height: 93px;
+	width: 93px;
+}
+.plan_container p{
+	color: #737272;
+	font-size: 25px;
+	line-height: 29px;
+}
