@@ -1,5 +1,5 @@
 *{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .believe{
 	background-image: url("../images/banner/banner3.png");
@@ -34,11 +34,12 @@
 }
 .believe button{
 	padding: 20px 25px;
-	margin-right: 150px;
-	margin-left: 1270px;
+	margin-right: 130px;
+	margin-left: 1290px;
 	line-height: 23px;
 	border-size: 165px 64px;
 	border-radius: 5px;
+	border: 0px solid;
 	color: #005FAC;
 	font-weight: 600;
 	font-size: 20px;
@@ -103,6 +104,7 @@
 }
 .plan_container h3{
 	font-size: 30px;
+	font-weight: 700;
 	line-height: 35px;
 	color: #151414;
 }
@@ -113,5 +115,112 @@
 .plan_container p{
 	color: #737272;
 	font-size: 25px;
+	fot-weight: 500;
 	line-height: 29px;
+}
+.call{
+	background-image: url("../images/gradient1.png"),url("../images/watch.png");
+	background-position: center,center;
+	background-repeat: no-repeat;
+	align-items: left;
+	text-align: left;
+	width: 1140px;
+	height: 300px;
+	margin: 130px 230px;
+}
+.call h2{
+	font-size: 40px;
+	line-height: 47px;
+	border-width: 460px;
+	border-height: 94px;
+	position: absolute;
+	color: #FFFFFF;
+	margin: 60px 617px 147px 64px;
+}
+.call button{
+	width: 180px;
+	height: 64px;
+	margin: 177px 916px 60px 64px;
+	padding: 20px 36px;
+	border-radius: 5px;
+	border: 0px solid;
+	color: #005FAC;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 23px;
+}
+.social_networks{
+	display: flex;
+	gap: 17px;
+	margin-top: 32px;
+}
+.social_networks img{
+	height: 46px;
+	width: 46px;
+}
+.future{
+	display: flex;
+	gap: 100px;
+	width: 1600px;
+	height: 577px;
+	background-color: #151414;
+	background-repeat: no-repeat;
+	margin-top: 130px;
+	align-items: center;
+	position: absolute;
+}
+#future_writeups{
+	margin: 130px 230px;
+	border:0;
+	width: 485px;
+	height: 320px;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+.future h2{
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 52px;
+	color: #F8F8F8;
+	margin-bottom: 16px;
+	margin-right: 430px;
+}
+.future p{
+	margin-bottom: 16px;
+}
+.subscribe h3{
+	font-size: 25px;
+	margin-top: 30px;
+	font-weight: 600;
+	line-height: 52px;
+	color: #F8F8F8;
+	margin-bottom: 16px;
+	margin-right: -250px;
+}
+.subscribe input{
+	width: 180px;
+	height: 64px;
+	border-radius: 8px;
+	border: 1px solid #FFFFFF;
+	padding: 10px 158px 10px 25px;
+	margin-right: 230px;
+	margin-bottom: 16px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #FFFFFF;
+	background-color: #151414; 
+	background-size: cover; 
+}
+.subscribe button{
+	padding: 20px 36px;
+	background-color: #005FAC;
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 600;
+	border: 0px solid;
+	border-radius: 8px;
 }
